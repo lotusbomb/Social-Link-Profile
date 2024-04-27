@@ -1,0 +1,69 @@
+body{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 100vh;
+    background: hsl(0, 0%, 8%);
+    color: white;
+}
+@font-face {
+    font-family: 'Inter' ;
+    src: url(/assets/fonts/Inter-VariableFont_slnt\,wght.ttf);
+}
+p{
+    font-size: 14px;
+    text-align: center;
+    font-weight: bolder;
+}
+.design{
+    justify-content: center;
+    background: hsl(0, 0%, 12%);
+    border-radius: 20px;
+    width: 400px;
+    padding: 20px;
+}
+.picture img{
+    border-radius: 100px;
+    width: 100px;
+    height: 100px;
+    margin-top: 20px;
+}
+.picture{
+    margin: 0;
+    text-align: center;
+}
+.picture h4{
+    color: hsl(75, 94%, 57%);
+    line-height: 1px;
+}
+.buttons{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+.buttons button{
+    padding: 15px 20px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    background-color: hsl(0, 0%, 20%);
+    color: white;
+    width: 90%;
+    margin-left: 20px;
+    outline: none;
+    border: none;
+}
+.buttons p{
+    margin-bottom: 30px;
+}
+.buttons button:hover{
+    background-color: hsl(75, 94%, 57%) ;
+    cursor: pointer;
+    color: black;
+    font-weight: bold;
+}
+
+@media (max-width:760px) {
+    .design {
+        margin: 20px;
+    }
+}
