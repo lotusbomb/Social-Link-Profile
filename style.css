@@ -7,8 +7,11 @@ body{
     color: white;
 }
 @font-face {
-    font-family: 'Inter' ;
-    src: url(/assets/fonts/Inter-VariableFont_slnt\,wght.ttf);
+    font-family:'Inter';
+    src: url(/assets/fonts/static/Inter-Regular.ttf);
+}
+*{
+    font-family: Inter !important;
 }
 p{
     font-size: 14px;
